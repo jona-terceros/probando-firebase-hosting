@@ -1,0 +1,19 @@
+{
+  "projects": {
+    "default": "tddlab-produccion-test"
+  },
+  "targets": {
+    "tddlab-produccion-test": {
+      "hosting": {
+        "production": [
+          "tddlab-produccion-test"
+        ],
+        "staging": [
+          "tddlab-entorno-pruebas"
+        ]
+      }
+    }
+  },
+  "etags": {},
+  "dataconnectEmulatorConfig": {}
+}
